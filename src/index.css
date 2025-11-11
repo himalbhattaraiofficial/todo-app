@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer utilities{
+  *{
+    font-family: "Space Grotesk", sans-serif;
+  }
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
